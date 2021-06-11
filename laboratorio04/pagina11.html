@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript parte 3</title>
+    <script type="text/javascript">
+
+
+
+
+
+
+
+
+    //Ejemplo 1
+    //mostrar todos los reesultados
+    //¿Cuantas variables necesito?
+    //2
+    //¿Que tipos de datos tengo?
+    //entero
+    //¿Cuales son las variables que necesito?
+    //cont, can
+    //¿Que variables voy a leer?
+    //can
+    //definiendo e inicializando variables
+    var nom="", cont=0;
+    //capturando valores
+    nom=prompt("Ingrese un nombre:");
+    //while
+    while(cont<5){
+        document.write("Hola como estas "+nom+"<br>");
+        cont++;
+    }
+    document.write("<hr>");
+    //do while
+    cont=0; 
+    do{
+        document.write("Hola como estas"+nom+"<br>");
+        cont++;
+    }while(cont<5);
+    //for
+    for(cont=0;cont<5;cont++){
+        document.write("Hola como estas"+nom+"<br>");
+    }
+    document.write("<br>");
+    document.write("<br>");
+    
+    //Ejemplo 2
+    //mostrar todos los reesultados
+    //¿Cuantas variables necesito?
+    //2
+    //¿Que tipos de datos tengo?
+    //entero
+    //¿Cuales son las variables que necesito?
+    //cont, can
+    //¿Que variables voy a leer?
+    //can
+    //definiendo e inicializando variables
+    var cont=0, can=0;
+    //capturando valores
+    can=parseInt(prompt("Ingrese la cantidad de numeros:"));
+    //while
+    while(cont<can){
+        document.write(cont+"<br>");
+        cont++;
+    }
+    document.write("<hr>");
+    //do while
+    cont=0;
+    do{
+        document.write(cont+"<br>");
+        cont++;
+    }while(cont<can);
+    document.write("<hr>");
+    //for
+    for(cont=0;cont<can;cont++){
+        document.write(cont+"<br>");
+    }
+    document.write("<hr>");
+    document.write("<hr>");
+    
+    //Acumulador -> te permite ir sumando valores a una variable de acuerdo a 
+    //cada vuelta del bucle
+    //sintaxis
+    //acumulador=acumulador+valor;
+
+    //Ejemplo 3
+    //desarrollar una aplicacion que permita sumar los n primeros numeros
+    //naturales 
+    //¿cuantas variables necesito?
+    // 3
+    //¿que tipo de datos necesito?
+    //entero
+    //¿cuales son las variables que necesito?
+    //cont, can, sum
+    //¿que variables voy a leer?
+    //can
+    //declarando e inicializando variables
+    var cont=0, can=0, sum=0;
+    //capturando valores
+    can=parseInt(prompt("Ingrese la cantidad de numeros:"));
+    //while
+    while(cont<can){
+        document.write(cont+"<br>");
+        sum=sum+cont;
+        cont++;
+    }
+    document.write("La suma es:"+sum+"<br>");
+    document.write("<hr>");
+    //do while
+    cont=0;
+    sum=0;
+    do{
+        document.write(cont+"<br>");
+        sum+sum+cont;
+        cont++;
+    }while(cont<can);
+    document.write("La suma es:"+sum+"<br>");
+    document.write("<hr>");
+    //for
+    sum=0;
+    for(cont=0;cont<can;cont++){
+        document.write(cont+"<br>");
+        sum=sum+cont;
+    }
+    document.write("La suma es:"+sum+"<br>");
+    document.write("<hr>");
+    document.write("<hr>");
+
+    
+
+    //Ejemplo 4
+    //desarrollar una aplicacion que te permita ingresar un valor sobre este 
+    //valo calcular la tabla de multiplicar, dependiendo de la cantidad de 
+    //valores que se va a trabajar
+    //¿cuantas variables necesito?
+    //3
+    //¿que tipo de datos necesito?
+    //entero
+    //¿cuales son las variables que necesito?
+    //cont, can, num
+    //¿que variables voy a leer?
+    //can, num
+    //declarando e inicializando variables
+    var cont=0, can=0, num=0
+    //capturando valores
+    can=parseInt(prompt("Ingresa la cantidad de numeros:"));
+    num=parseInt(prompt("Ingresa el numero de la tabla"));
+    //while
+    while(cont<can){
+        document.write(cont+"X" + num +"="+(cont*num)+"<br>");
+        cont++;
+    }
+    document.write("<hr>");
+    //do while
+    cont=0;
+    do{
+        document.write(cont+"X"+num+"="+(cont*num)+"<br>");
+        cont++;
+    }while(cont<can);
+    document.write("<hr>");
+    //for
+    for(cont=0;cont<can;cont++){
+        document.write(cont+" X " +num+"="+(cont*num)+"<br>");
+    }
+document.write("<hr>");
+document.write("<hr>");
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

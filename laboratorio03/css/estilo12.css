@@ -1,0 +1,23 @@
+ul {
+  background-color: cornflowerblue;
+  padding: 10px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ul li {
+  background-color: cornsilk;
+  margin: 3px;
+}
+
+ul li ul {
+  background-color: cyan;
+  padding: 5px;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+ul li ul li {
+  background-color: darkkhaki;
+  margin: 3px;
+}

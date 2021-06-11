@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(126, 218, 126);
+}
+
+h1 {
+  text-align: center;
+  font-size: auto;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(231, 114, 213);
+}
+
+h2 {
+  font-size: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  font-family: comic sans ms;
+}
+
+.contenido {
+  display: table-row;
+}
+
+.habilidades {
+  width: 60%;
+}
+
+.perfil,
+.habilidades {
+  display: table-cell;
+  text-align: center;
+}
+
+.perfil p {
+  text-align: justify;
+  margin-left: 60px;
+}
+
+.habilidades li {
+  text-align: justify;
+  margin-left: 350px;
+  font-family: comic sans ms;
+}
+
+.contenido2 {
+  display: table-row;
+}
+
+.eduacion {
+  width: 60%;
+}
+
+.contacto,
+.eduacion {
+  display: table-cell;
+}
+
+.contacto li {
+  text-align: justify;
+  margin-left: 300px;
+  font-family: comic sans ms;
+}
+
+.contenido2,
+.contacto h2 {
+  margin-left: 400px;
+}
+
+.contenido2,
+.educacion h2 {
+  margin-left: 240px;
+}
+
+.contenido2,
+.educacion li {
+  margin-left: 100px;
+  font-family: comic sans ms;
+}
+
+.laboral h2 {
+  margin-left: 170px;
+}
+
+.laboral p {
+  font-family: comic sans ms;
+  text-align: justify;
+  margin-left: 60px;
+}
+
+a.regresar:link,
+a.regresar:visited {
+  background-color: rgb(231, 114, 213);
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a.regresar:hover,
+a.regresar:active {
+  background-color: rgb(233, 51, 51);
+}
+
+a {
+  margin-left: 75 0px;
+}
