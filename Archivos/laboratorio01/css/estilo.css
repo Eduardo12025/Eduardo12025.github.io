@@ -1,28 +1,36 @@
-ul{
+body{
+    margin: 0;
+}
+  
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: black;
+    width: 25%;
+    background-color: darkorchid;
+    position: fixed;
+    overflow: auto;
+    border: 1px solid pink;
 }
-
+  
 li{
-    float: left;
-    border-right: 1px solid silver;
-}
-
-li a{
-    display: block;
-    color: white;
     text-align: center;
-    padding: 14px 16px;
+    border: 1px solid #555;
+  }
+  
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
     text-decoration: none;
 }
+  
 li a.activo{
-    background-color: green;
+    background-color: pink;
     color: white;
 }
-
-li a:hover:not(activo){
-    background-color: #555;
+  
+li a:hover:not(activo) {
+    background-color: red;
+    color: white;
 }

@@ -7,10 +7,10 @@ ul {
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: gray;
+    background-color: darkorchid;
     position: fixed;
     overflow: auto;
-    border: 1px solid #555;
+    border: 1px solid pink;
 }
   
 li{
@@ -26,11 +26,11 @@ li a {
 }
   
 li a.activo{
-    background-color: green;
+    background-color: pink;
     color: white;
 }
   
 li a:hover:not(activo) {
-    background-color: #555;
-    color: whitesss;
+    background-color: red;
+    color: white;
 }
