@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Como primer paso para un diseño responsivo configuramos las escalas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- es necesario definir el description y los keywords -->
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Ejemplo 2 HTML</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <!-- Inicio del contenedor -->
-    <div>
+    <div class="contenedor">    
         <!-- inicia el header -->
         <header>
             <!-- inicia el menu principal -->
@@ -27,11 +29,11 @@
         </header>
         <!-- Fin del Header -->
         <!-- inicia la seccion principal -->
-        <section>
-            <div>
+        <section class="principal">
+            <div class="imagen">
                 <img src="img/foto1.jpg" alt="Edificio moderno">
             </div>
-            <section>
+            <section class="publicaciones">
                 <article>
                     <h2>Titulo de Artículo</h2>
                     <p>
@@ -49,8 +51,8 @@
         </section>
         <!-- Fin de la seccion principal -->
         <aside>
-            <div>
-                <h3>Artículos destacados</h3>
+            <div class="anuncio">
+                <h3 class="h3anuncio">Artículos destacados</h3>
                 <ul>
                     <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
                     <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
@@ -59,8 +61,8 @@
                     <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
                 </ul>
             </div>
-            <div>
-                <h3>Información</h3>
+            <div class="anuncio">
+                <h3 class="h3anuncio">Información</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident numquam voluptatibus fugiat autem libero obcaecati eos? Iusto inventore aliquam distinctio fugiat veritatis totam? Iste, labore doloribus. Repudiandae, numquam excepturi?</p>
             </div>
         </aside>
